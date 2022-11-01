@@ -1,0 +1,70 @@
+.navbar {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.159);
+    position: fixed;
+    z-index: 1;
+    backdrop-filter: blur(14px);
+    
+
+    &-wrapper {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    &-logo {
+        max-width: 150px;
+        width: 100%;
+    }
+
+    &-right {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    &-list {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        &__link {
+            color: #fff;
+            font-size: 16px;
+            mix-blend-mode: difference;
+        }
+    }
+
+    &-btn {
+        padding: 10px 24px;
+        background: #02897A;
+        color: #fff;
+        outline: none;
+        border: none;
+        border-radius: 8px;
+    }
+
+    &-lang {
+        background: transparent;
+        border: 0;
+        color: #fff;
+        
+        
+        select{
+            background: transparent;
+            border: 0;
+            outline: none;
+            color: #fff;
+
+            option{
+                padding: 10px;
+                background: #fff;
+                color: #000;
+                font-size: 15px;
+            }
+        }
+    }
+
+}

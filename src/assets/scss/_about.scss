@@ -1,0 +1,126 @@
+.about {
+    background: #E5E5E5;
+    min-height: 90vh;
+    height: 100%;
+    width: 100%;
+
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+
+
+        &__title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 53px;
+            text-align: center;
+            max-width: 739px;
+            width: 100%;
+            margin-bottom: 50px;
+
+            span {
+                color: #02b102
+            }
+        }
+
+        &__subtitle {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25px;
+            text-align: center;
+            max-width: 730px;
+            width: 100%;
+            color: #999999;
+            margin-bottom: 70px;
+        }
+    }
+
+    &-blocks {
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        place-content: center;
+        width: 80%;
+        gap: 20px;
+        margin-bottom: 55px;
+
+        .about-block {
+            display: flex;
+
+            &__right {
+                margin-left: 17px;
+
+                .about-block__title {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 22px;
+
+                    color: #000000;
+                    margin-bottom: 20px;
+
+                }
+
+                .about-block__txt {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #999999;
+
+
+                }
+            }
+
+            .block-ellipse {
+                max-width: 110px;
+                width: 100%;
+                height: 110px;
+                border: 1px solid #E0E0E0;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &__inner {
+                    max-width: 90px;
+                    width: 100%;
+                    height: 90px;
+                    border: 1px solid #02b102;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+
+        }
+
+
+    }
+
+    .btn {
+        background: #02b102;
+        /* Shadow */
+
+        box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+        border-radius: 30px;
+        color: #fff;
+        max-width: 250px;
+        width: 100%;
+        display: block;
+        padding: 14px 0;
+        border: 0;
+        outline: none;
+    }
+
+}

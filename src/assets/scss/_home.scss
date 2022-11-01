@@ -1,0 +1,45 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Rectangle.png) center center / cover;
+
+
+    &-wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         height: 90vh;
+         justify-content: center;
+
+        &__title {
+            font-family: 'Montserrat';
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 64px;
+            text-align: center;
+            color: #FFFFFF;
+            max-width: 839px;
+            width: 100%;
+
+            span{
+                color: rgb(2, 177, 2);
+            }
+        }
+
+        &__subtitle {
+            font-family: 'Montserrat';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #FFFFFF;
+
+            span{
+                color: rgb(2, 177, 2);
+            }
+
+        }
+    }
+}
